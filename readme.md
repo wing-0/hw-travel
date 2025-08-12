@@ -26,3 +26,5 @@
     </body>
     </html>
 '''
+
+3. cut the layout into sections
