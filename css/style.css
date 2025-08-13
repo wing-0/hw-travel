@@ -80,18 +80,8 @@ body {
 /*===================================================*/
 /*earth*/
 
-.earth{
-    margin: var(--nav-height) auto 0;
-    max-width: 1100px;
-    position: relative;
-}
-
 model-viewer{
+    display: block;
     width: 180vh;
     height: 180vh;
-}
-
-.model-viewer-fix{
-    height: 100%;
-    width: auto;
 }
