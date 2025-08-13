@@ -1,6 +1,9 @@
 # step 1: collect asset
 1. https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_4:3,w_1920,g_auto/f_auto/q_auto/v1/roman-coliseum-under-clouds-sunset-summer?_a=BAVAZGE70
 2. download the asset from https://romeandvaticanpass.com/en/things-to-do/five-facts-the-coliseum
+3. https://science.nasa.gov/resource/earth-3d-model/
+4. download the asset from https://science.nasa.gov
+5. convert gltf to html by https://products.aspose.app/3d/conversion/gltf-to-html
 # step 2: create draft
 1. https://www.figma.com/design/Ztfohs3n8Qx12SCvL4vnj4/hw?node-id=14-274&t=CrO3YHi1bmGpHCNf-0
 2. create draft by using https://www.figma.com
