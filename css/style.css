@@ -50,12 +50,12 @@ body {
     flex-shrink: 0;
 }
 
-.navbar .computer .menu-list{
+.navbar .menu-list{
     display: flex;
     gap: 1.5rem;
     align-items: center;
 }
-.navbar .computer :before{
+.navbar :before{
     background: radial-gradient(62.5% 62.5% at 50% 43.75%, 
     rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.30) 100%);
     mix-blend-mode: screen;
@@ -85,13 +85,18 @@ body {
     background: var(--primary-white);
 }
 
+.btn a{
+    color: var(--primary-color);
+}
+
+
 /*===================================================*/
 /*earth*/
 
 model-viewer{
     margin: var(--nav-height);
     display: block;
-    /*position: relative;*/
+    position: relative;
     width: 180vh;
     height: 180vh;
 }
