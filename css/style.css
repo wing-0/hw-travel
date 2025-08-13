@@ -90,7 +90,7 @@ body {
 model-viewer{
     margin: var(--nav-height);
     display: block;
-    position: relative;
+    /*position: relative;*/
     width: 180vh;
     height: 180vh;
 }
