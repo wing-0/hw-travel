@@ -4,6 +4,7 @@
     --spacing: 0.25rem;
     --border-radius: 62.5rem;
     --ff-primary: "Inter", sans-serif;
+    --nav-height: 10rem;
 }
 
 /*============================================*/
@@ -31,11 +32,15 @@ body {
     height: 52rem;
     background: var(--primary-white);
     font-family: var(--ff-primary);
+    line-height: 1.5;
 }
 /*========sections===============*/
 /*navbar*/
-.navbar-computer{
+
+.navbar {
     box-shadow: var(--box-shadow);
+    padding: 0 3rem;
+    height: var(--nav-height);
     left: 0;
     bottom: 0;
     width: 100%;
@@ -50,6 +55,12 @@ body {
     box-shadow: 0 0 77.6px 0 rgba(255, 255, 255, 0.10) inset, 0 80px 200px -19px rgba(0, 0, 0, 0.29);
 }
 
+.navbar-computer {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
 .navbar .mobile-menu-list{
     display: none;
 }
@@ -64,4 +75,18 @@ body {
     gap: 0.25rem;
     border-radius: var(--border-radius);
     box-shadow: 0 4px 20px 0 var(--box-shadow);
+}
+
+/*===================================================*/
+/*earth*/
+
+.earth{
+    margin: var(--nav-height) auto 0;
+    max-width: 1100px;
+    position: relative;
+}
+
+model-viewer{
+    width: 180vh;
+    height: 180vh;
 }
