@@ -1,7 +1,13 @@
 :root{
     --primary-white: #fafafa;
     --box-shadow:rgba(153, 153, 153, 0.25);
+    --spacing: 0.25rem;
+    --border-radius: 62.5rem;
+    --ff-primary: "Inter", sans-serif;
 }
+
+/*============================================*/
+/*gobal setting*/
 
 html,
 body{
@@ -22,8 +28,10 @@ a{
 
 body {
     background: var(--primary-white);
+    font-family: var(--ff-primary);
 }
-
+/*========sections===============*/
+/*navbar*/
 .btn {
     padding: 10px;
     display: flex;
@@ -33,6 +41,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 0.25rem;
-    border-radius: 62.5rem;
+    border-radius: var(--border-radius);
     box-shadow: 0 4px 20px 0 var(--box-shadow);
 }
