@@ -34,13 +34,13 @@ body {
 }
 /*========sections===============*/
 /*navbar*/
-.navbar{
+.navbar-computer{
     box-shadow: var(--box-shadow);
     width: 79.875rem;
     height: 17.3125rem;
-    /*flex-shrink: 0;
+    flex-shrink: 0;
     background: radial-gradient(62.5% 62.5% at 50% 43.75%, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.30) 100%);
-    mix-blend-mode: screen;*/
+    mix-blend-mode: screen;
     box-shadow: 0 0 77.6px 0 rgba(255, 255, 255, 0.10) inset, 0 80px 200px -19px rgba(0, 0, 0, 0.29);
 }
 
