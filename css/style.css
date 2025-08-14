@@ -35,6 +35,11 @@ body {
     font-family: var(--ff-primary);
     line-height: 1.5;
 }
+
+.dark-mode{
+    background: var(--primary-color);
+    color: var(--primary-white);
+}
 /*========sections===============*/
 /*navbar*/
 
