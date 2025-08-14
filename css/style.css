@@ -19,6 +19,7 @@ body{
 }
 
 *{
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 ul,li {
@@ -112,3 +113,8 @@ body {
     width: 180vh;
     height: 180vh;
 }*/
+
+/*===========================================================*/
+/*carousel*/
+
+
