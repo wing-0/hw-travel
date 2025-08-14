@@ -105,10 +105,10 @@ body {
 /*===================================================*/
 /*earth*/
 
-model-viewer{
+/*model-viewer{
     margin: var(--nav-height);
     display: block;
     position: relative;
     width: 180vh;
     height: 180vh;
-}
+}*/
