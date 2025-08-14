@@ -90,7 +90,10 @@ body {
 }
 
 /*switch*/
-svg{
+.dark-mode-toggle{
+    display: none;
+}
+.dark-mode-toggle svg{
     width: 2.6875rem;
     height: 2.625rem;
 }
