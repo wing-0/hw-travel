@@ -31,6 +31,7 @@ a{
 }
 
 body {
+    padding: 25px;
     width: 80rem;
     height: 60rem;
     background: var(--primary-white);
@@ -116,13 +117,13 @@ h2 {
 /*===================================================*/
 /*earth*/
 
-/*model-viewer{
+model-viewer{
     margin: var(--nav-height);
     display: block;
     position: relative;
     width: 180vh;
     height: 180vh;
-}*/
+}
 
 /*===========================================================*/
 /*carousel*/
@@ -142,3 +143,7 @@ h2 {
     flex: 0 0 100%;
     scroll-snap-align: center;
 }
+
+/*=========================================*/
+/*map*/
+
