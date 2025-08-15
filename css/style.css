@@ -117,4 +117,18 @@ body {
 /*===========================================================*/
 /*carousel*/
 
+.carousel {
+    width: 90vw;
+    height: 330px;
+    padding: 20px;
+    display: flex;
+    gap: 4vw;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
 
+.carousel-item {
+    padding: 20px;
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+}
