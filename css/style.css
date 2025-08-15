@@ -118,9 +118,9 @@ body {
 /*carousel*/
 
 .carousel {
-    width: 90vw;
-    height: 330px;
-    padding: 20px;
+    width: 45vw;
+    height: 380px;
+    padding: 10px;
     display: flex;
     gap: 4vw;
     overflow-x: scroll;
