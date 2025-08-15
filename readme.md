@@ -4,6 +4,7 @@
 3. https://science.nasa.gov/resource/earth-3d-model/
 4. download the asset from https://science.nasa.gov
 5. download the aasset from https://www.flickr.com/photos/looksgood/16295977685/in/photostream/
+6. download the asset from https://whc.unesco.org/en/list/154/gallery/
 # step 2: create draft
 1. https://www.figma.com/design/Ztfohs3n8Qx12SCvL4vnj4/hw?node-id=14-274&t=CrO3YHi1bmGpHCNf-0
 2. create draft by using https://www.figma.com
