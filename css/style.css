@@ -103,7 +103,10 @@ p {
     width: 30%;
 }
 
-
+.content {
+    padding-top: 35;
+    padding-bottom: 35;
+}
 .c2 {
     display: flex;
     justify-content: space-between;
