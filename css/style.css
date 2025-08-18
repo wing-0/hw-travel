@@ -50,24 +50,16 @@ body {
 
 header{
     text-align: center;
-    justify-content: center;
-    padding: 2px;
+    font-size: 16px;
+    font-style: normal;
     font-weight: 900;
     line-height: normal;
     letter-spacing: 3px;
-    font-size: 16px;
-    font-style: normal;
-    display: flex;
-    width: 244px;
-    height: 48px;
-    flex-direction: column;
-    justify-content: center;
     color: var(--primary-color);
 }
 
 h3 {
     font-size: 1.5rem;
-    font-weight: 600;
     margin-bottom: 1rem;
     display: flex;
     width: 390px;
@@ -112,6 +104,7 @@ p {
     justify-content: space-between;
     padding-left: 2rem;
     padding-bottom: 5rem;
+    padding-top: 2rem;
 }
 .dark-mode{
     background: var(--primary-color);

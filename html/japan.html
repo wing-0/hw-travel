@@ -9,32 +9,42 @@
         referrerpolicy="no-referrer" />
         <title>Japan</title>
     </head>
-    <body>
+    <div>
         <!--light/dark switch-->
-            <button onclick="myFunction()">
-    <label for="dark-mode-toggle" class="toggle"><i class="fa-solid fa-circle-half-stroke"></i></label>
-            </button>
+            <button id="theme-switch">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+    </button>
         <!--navbar-->
         <!--computer menu-->
         <nav class="navbar">
             <div class="computer">
             <div class="main-menu">
                 <ul class="menu-list">
+                    <span class="bage">
                     <li class="menu-item">
                         <a href="../html/index.html" class="btn">HOME</a>
-                    </li>
+                    </li></span>
+                    <span class="bage-select">
                     <li class="menu-item">
                         <a href="../html/italy.html" class="btn">ITALY</a>
                     </li>
+                </span>
+                <span class="bage">
                     <li class="menu-item">
                         <a href="../html/japan.html" class="btn">JAPAN</a>
                     </li>
+                </span>
+                <span class="bage">
                     <li class="menu-item">
                         <a href="../html/australia.html" class="btn">AUSTRALIA</a>
                     </li>
+                </span>
+                <span class="bage">
                     <li class="menu-item">
                         <a href="../html/greece.html" class="btn">GREECE</a>
                     </li>
+                </span>
                 </ul>
             </div>
         </div>
@@ -61,9 +71,9 @@
                 </ul>
             </div>
         </nav>
-        <h1>Japan</h1>
-        <h2>Fushimi Inari Taisha</h2>
+        <header>▸japan•fushimi inari taisha◂</header>
         <!--carousel-->
+        <div class="c2">
             <ul class="carousel">
             <li class="carousel-item">
                 <img src="../img/fushimi inari taisha.jpg" 
@@ -104,7 +114,9 @@
         </iframe>
         </li>
             </ul>
-        <h3>Intro</h3>
+            <div class="glass-card">
+                <div class="content">
+        <h3>꒰⋮ Intro ⋮꒱</h3>
         <p>The Fushimi Inari Taisha is recognized as the head shrine of all Shinto shrines, dedicated to Inari Okami, the god of rice harvest. 
             It was built during the Nara Period in 711 A.D, and is a designated Important Cultural Property in Japan. 
             The main shrine of the complex houses five pillars which represent the great values of Inari. 
@@ -112,20 +124,26 @@
             At the temple, you’ll notice the fox statues scattered around. 
             These statues are called kitsune, which is said to be Inari’s messengers, a symbolism of the kami (deities). 
             You’ll often see these statues holding a ball or a scroll which symbolizes the message to be sent from the earth or from the celestial sphere.</p>
+            </div>
+        </div>
+        </div>
             <!--==========================================================================================================================-->
-            
+            <div class="glass-card">
         <iframe class="map"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26156.461250266697!2d135.779188!3d34.967694!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f153d2e6d21%3A0x7b1aca1c753ae2e9!2z5LyP6KaL56i76I235aSn56S-!5e0!3m2!1szh-TW!2sus!4v1755224910190!5m2!1szh-TW!2sus" 
-        width="600" 
-        height="450" 
+        width="1146" 
+        height="550" 
         style="border:0;" 
         allowfullscreen="" 
         loading="lazy" 
         referrerpolicy="no-referrer-when-downgrade">
         </iframe>
-        <a href = "https://inari.jp/en/" target="_blank">
+            </div>
+            <div class="btn-row">
+        <a href = "https://inari.jp/en/" target="_blank" class="btn btn-gradient">
             Official Website
         </a>
+    </div></div>
         <script src="../js/index.js"></script>
     </body>
     </html>
