@@ -100,10 +100,13 @@ p {
 
 @media (max-width: 768px) {
     header {
-        padding-right: 35rem;
+        padding-right: 38rem;
         padding-top: 3rem;
     }
-    
+    .carousel {
+        width:590px !important;
+        margin-left: 1.045rem;
+    }
 }
 .content {
     padding-top: 35;
