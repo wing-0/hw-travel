@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display|Neuton&display=swap");
 
 :root{
     --primary-color: #8C8C8C;
@@ -114,6 +113,30 @@ p {
     background: var(--primary-color);
     color: var(--primary-white);
 }
+/*animation-position parameter*/
+.menu-item0 ,
+.menu-item1 ,
+.menu-item2 ,
+.menu-item3 ,
+.menu-item4 {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    text-align: center;
+}
+.menu-item0 {
+    top: 20%;
+    width: 100%;
+    opacity: 0;
+}
+
+.container {
+    visibility: hidden;
+}
 /* Background decoration */
 .bg-decoration {
     position: fixed;
@@ -149,6 +172,7 @@ p {
     radial-gradient(circle at 70% 70%, rgba(176,232,221,0.35), rgba(176,232,221,0) 60%),
     radial-gradient(circle at 50% 50%, rgba(199,208,255,0.35), rgba(199,208,255,0) 60%);
 }
+
 /*==============liquid glass effect==========*/
 /*glass-card*/
 .glass-card {
@@ -306,6 +330,8 @@ p {
 /*earth*/
 
 model-viewer{
+    padding-left: 5rem;
+    padding-right: 10rem;
     margin: var(--nav-height);
     display: block;
     position: relative;
@@ -332,8 +358,6 @@ model-viewer{
     scroll-snap-align: center;
 }
 
-/*=========================================*/
-/*map*/
 
 /*=================responsive=============*/
 
