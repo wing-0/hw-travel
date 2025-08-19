@@ -91,11 +91,40 @@ p {
     font-weight: 400;
     line-height: normal;
 }
-
+.welcome {
+    font-size: 90px;
+    color: var(--primary-color);
+    font-weight: 400;
+    font-family: "The Nautigal", cursive;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+}
+.welcome span {
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    text-transform: lowercase;
+}
 .carousel {
     align-items: top;
     display: inline-block;
     width: 30%;
+}
+.c2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+.c2,
+.glass-card {
+    margin-left: 10rem;
+}
+.map {
+    padding-right: 9rem;
 }
 
 @media (max-width: 768px) {
@@ -107,18 +136,15 @@ p {
         width:590px !important;
         margin-left: 1.045rem;
     }
+    .map {
+        padding-right: 0;
+    }
 }
 .content {
     padding-top: 35;
     padding-bottom: 35;
 }
-.c2 {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 2rem;
-    padding-bottom: 5rem;
-    padding-top: 2rem;
-}
+
 .dark-mode{
     background: var(--primary-color);
     color: var(--primary-white);
@@ -159,6 +185,7 @@ p {
     radial-gradient(circle at 70% 70%, rgba(176,232,221,0.35), rgba(176,232,221,0) 60%),
     radial-gradient(circle at 50% 50%, rgba(199,208,255,0.35), rgba(199,208,255,0) 60%);
 }
+/*==================animation====================*/
 
 /*==============liquid glass effect==========*/
 /*glass-card*/
@@ -470,4 +497,11 @@ model-viewer{
 ::selection {
     background: var(--primary-color);
     color: var(--primary-white);
+}
+
+@media (max-width: 768px) {
+    #theme-switch {
+        white-space: nowrap;
+        text-align: center;
+    }
 }
