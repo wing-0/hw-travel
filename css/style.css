@@ -98,6 +98,15 @@ p {
     width: 30%;
 }
 
+@media (max-width: 768px) {
+    header {
+        padding-right: 35rem;
+        padding-top: 3rem;
+    }
+    .carousel-size{
+        width: 150px;
+    }
+}
 .content {
     padding-top: 35;
     padding-bottom: 35;
@@ -397,23 +406,18 @@ model-viewer{
 }
 
 @media (max-width: 768px) {
-    .carouse {
-        width: 45vw;
-        padding: 10px;
-    }
     .c2 {
         display: inline;
-        width: 10vw;
-        padding-bottom: 5rem;
-        padding-top: 3rem;
     }
     .content {
         width: 10vx;
         padding-top: 35;
         padding-bottom: 35;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
     .map {
-        width: 600;
+        width: 560;
         height: 570;
     }
 }
@@ -422,9 +426,15 @@ model-viewer{
 @media (max-width: 768px) {
     .glass-card{
         padding: 1.5rem;
+        width: 38rem;
+        margin: 15;
+        margin-left: 5;
+        margin-right: 5;
+        align-items: center;
     }
     .btn-row{
         flex-direction: column;
+        margin-right: 42rem;
     }
 }
 
