@@ -111,15 +111,15 @@ p {
     align-items: top;
     display: inline-block;
     width: 30%;
+    margin-left: 10rem;
 }
 .c2 {
     display: flex;
     justify-content: space-between;
-    padding-left: 2rem;
     padding-bottom: 5rem;
     padding-top: 2rem;
 }
-.c2,
+
 .glass-card {
     margin-left: 10rem;
 }
