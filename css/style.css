@@ -397,18 +397,29 @@ model-viewer{
 }
 
 @media (max-width: 768px) {
-    .carousel {
-        width: 24vw;
-        height: 190px;
+    .carouse {
+        width: 45vw;
+        padding: 10px;
     }
-    .carousel-item {
-        width: 20;
-        height: 180;
+    .c2 {
+        display: inline;
+        width: 10vw;
+        padding-bottom: 5rem;
+        padding-top: 3rem;
+    }
+    .content {
+        width: 10vx;
+        padding-top: 35;
+        padding-bottom: 35;
+    }
+    .map {
+        width: 600;
+        height: 570;
     }
 }
 /*=================responsive=============*/
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .glass-card{
         padding: 1.5rem;
     }
