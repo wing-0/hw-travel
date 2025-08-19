@@ -113,30 +113,7 @@ p {
     background: var(--primary-color);
     color: var(--primary-white);
 }
-/*animation-position parameter*/
-.menu-item0 ,
-.menu-item1 ,
-.menu-item2 ,
-.menu-item3 ,
-.menu-item4 {
-    width: 200px;
-    height: 100px;
-    position: absolute;
-    z-index: 0;
-    left: 50%;
-    right: 50%;
-    transform: translate3d(-50%, -50%, 0);
-    text-align: center;
-}
-.menu-item0 {
-    top: 20%;
-    width: 100%;
-    opacity: 0;
-}
 
-.container {
-    visibility: hidden;
-}
 /* Background decoration */
 .bg-decoration {
     position: fixed;
@@ -286,6 +263,25 @@ p {
     display: flex;
     gap: 1.5rem;
     align-items: center;
+    a {
+        color: var(--primary-color);
+        font-size: 1.2rem;
+    }
+}
+.navbar .mobile-menu-items {
+    position: absolute;
+    top: var(--nav-height);
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    text-align: center;
+    transform: translateX(600%);
+    z-index: 1;
+}
+
+.navbar .mobile-menu-list {
+    display: flex;
+    
 }
 .navbar :before{
     background: radial-gradient(62.5% 62.5% at 50% 43.75%, 
@@ -318,6 +314,19 @@ p {
     color: var(--primary-color);
 }
 
+@media (max-width:768px){
+    .navbar-computer{
+        .main-menu {
+            display: none;
+        }
+        .navbar .mobile-menu-list {
+            display: block;
+            a {
+                color: var(--primary-color);
+            }
+        }
+    }
+}
 /*switch*/
 .dark-mode-toggle{
     display: none;
@@ -326,6 +335,7 @@ p {
     width: 2.6875rem;
     height: 2.625rem;
 }
+
 /*===================================================*/
 /*earth*/
 
