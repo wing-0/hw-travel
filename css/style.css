@@ -51,6 +51,7 @@ body {
 
 header{
     padding-top: var(--nav-height);
+    padding-left: 15rem;
     text-transform: uppercase;
     text-align: center;
     font-size: 12px;
@@ -114,6 +115,9 @@ p {
     width: 30%;
     margin-left: 10rem;
 }
+.c2 .glass-card {
+    margin-left: 2rem;
+}
 .c2 {
     display: flex;
     justify-content: space-between;
@@ -127,7 +131,10 @@ p {
 .map {
     padding-right: 9rem;
 }
-
+.content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
 @media (max-width: 768px) {
     header {
         padding-right: 38rem;
@@ -141,10 +148,7 @@ p {
         padding-right: 0;
     }
 }
-.content {
-    padding-top: 35;
-    padding-bottom: 35;
-}
+
 
 .dark-mode{
     background: var(--primary-color);
