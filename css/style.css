@@ -136,6 +136,14 @@ p {
     padding-bottom: 35px;
 }
 @media (max-width: 768px) {
+    .welcome {
+        font-size: 60px;
+        text-transform: capitalize;
+        text-align: center;
+        padding-left: 2.5rem;
+        margin-bottom: 2rem;
+        margin-top: 10rem;
+    }
     header {
         padding-right: 38rem;
         padding-top: 3rem;
@@ -429,6 +437,10 @@ model-viewer{
         margin: var(--nav-height);
         width: 100vh;
         height: 100vh;
+        padding-left: 0rem;
+        padding-right: 1rem;
+        width: 200vh;
+        height: 150vh;
     }
 }
 /*===========================================================*/
