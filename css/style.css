@@ -239,6 +239,7 @@ p {
     margin: 50;
     align-items: center;
     justify-content: center;
+    margin-left: 10rem;
 }
 
 .btn {
@@ -453,16 +454,16 @@ model-viewer{
 
 @media (max-width: 768px) {
     .glass-card{
-        padding: 1.5rem;
+        padding: 1.5rem; 
         width: 38rem;
         margin: 15;
-        margin-left: 5;
-        margin-right: 5;
+        margin-left: 5 !important;
+        margin-right: 5 !important;
         align-items: center;
     }
     .btn-row{
         flex-direction: column;
-        margin-right: 42rem;
+        margin-right: 42rem !important;
     }
 }
 
