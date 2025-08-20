@@ -423,12 +423,12 @@ li.menu-item :hover {
 /*earth*/
 
 model-viewer{
-    padding-left: 5rem;
+    padding-left: 15rem;
     padding-right: 10rem;
     margin: var(--nav-height);
     display: block;
     position: relative;
-    width: 180vh;
+    width: 160vh;
     height: 180vh;
 }
 
