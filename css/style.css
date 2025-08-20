@@ -321,15 +321,17 @@ p {
     display: flex;
     flex-direction: column;
     padding-top: var(--nav-height);
-    gap: 2rem;
+    gap: 5rem;
     font-size: 25px;
     margin-block: 0;
-    background: var(--primary-white);
+    font-weight: 780;
     li {
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
     }
     a {
-        color: var(--primary-color);
+        padding-right: 4.5rem;
+        padding-bottom: 5rem;
+        mix-blend-mode: difference;
     }
     li:last-child {
         border-bottom: 0;
@@ -355,7 +357,8 @@ p {
     align-items: center;
     justify-content: space-between;
 }
-.navbar .mobile-menu-list{
+.navbar .mobile-menu-list,
+.navbar .glass-card {
     display: none;
 }
 /*.btn {
