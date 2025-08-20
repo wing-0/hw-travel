@@ -306,6 +306,7 @@ li.menu-item :hover {
 }
 
 .navbar .computer .main-menu{
+    display: flex;
     gap: 1.5rem;
     .menu-item {
         cursor: pointer;
@@ -362,12 +363,12 @@ li.menu-item :hover {
     box-shadow: 0 0 77.6px 0 rgba(255, 255, 255, 0.10) inset, 0 80px 200px -19px rgba(0, 0, 0, 0.29);
 }
 
-.navbar-computer {
+/*.navbar-computer {
     display: flex;
     gap: 2.5rem;
     align-items: center;
     justify-content: space-between;
-}
+}*/
 .navbar .mobile-menu-list,
 .navbar .glass-card {
     display: none;
