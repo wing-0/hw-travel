@@ -305,10 +305,13 @@ li.menu-item :hover {
     flex-shrink: 0;
 }
 
-.navbar .menu-list{
-    display: flex;
+.navbar .computer .main-menu{
     gap: 1.5rem;
-    align-items: center;
+    .menu-item {
+        cursor: pointer;
+        display: inline;
+    justify-content: space-between;
+    }
     a {
         color: var(--primary-color);
         font-size: 1.2rem;
