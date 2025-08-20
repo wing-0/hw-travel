@@ -149,6 +149,9 @@ p {
     }
 }
 
+li.menu-item :hover {
+    color: #676767;
+}
 
 .dark-mode{
     background: var(--primary-color);
