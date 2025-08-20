@@ -50,6 +50,7 @@ body {
 }
 
 header{
+    padding-top: var(--nav-height);
     text-transform: uppercase;
     text-align: center;
     font-size: 12px;
@@ -377,10 +378,11 @@ p {
 }
 
 @media (max-width:768px){
-    .navbar-computer .main-menu {
+    .navbar .computer .main-menu {
             display: none;
         }
-        .navbar .mobile-menu-list {
+        .navbar .glass-card,
+        .navbar .glass-card .mobile-menu-list {
             display: block;
             a {
                 color: var(--primary-color);
