@@ -374,18 +374,18 @@ p {
 }
 
 @media (max-width:768px){
-    .navbar-computer{
-        .main-menu {
+    .navbar-computer .main-menu {
             display: none;
         }
         .navbar .mobile-menu-list {
             display: block;
             a {
                 color: var(--primary-color);
+                background: none;
             }
         }
     }
-}
+
 /*switch*/
 .dark-mode-toggle{
     display: none;
@@ -440,14 +440,17 @@ model-viewer{
     }
     .content {
         width: 10vx;
-        padding-top: 35;
-        padding-bottom: 35;
+        padding-top: 35px;
+        padding-bottom: 35px;
         padding-left: 5rem;
         padding-right: 5rem;
     }
     .map {
-        width: 560;
-        height: 570;
+        width: 560px;
+        height: 570px;
+    }
+    .carousel {
+        margin-left: 2.5rem !important;
     }
 }
 /*=================responsive=============*/
@@ -456,9 +459,8 @@ model-viewer{
     .glass-card{
         padding: 1.5rem; 
         width: 38rem;
-        margin: 15;
-        margin-left: 5 !important;
-        margin-right: 5 !important;
+        margin: 15px !important;
+        margin-left: 2.3rem !important;
         align-items: center;
     }
     .btn-row{
