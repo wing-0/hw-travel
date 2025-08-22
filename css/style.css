@@ -1,8 +1,8 @@
 
 :root{
     --primary-color: #8C8C8C;
-    --secondary-grey: #727272;
-    --primary-white: #fafafa;
+    --secondary-color: #727272;
+    --surface-color: #fafafa;
     --box-shadow:rgba(153, 153, 153, 0.25);
     --spacing: 0.25rem;
     --border-radius: 62.5rem;
@@ -15,6 +15,11 @@
     --grad-soft: linear-gradient(135deg, #eceef2 0%, #c1c2c6 45%, #bfbfc1 100%);
 }
 
+.dark-mode {
+    --primary-color: #fafafa;
+    --secondary-color: #6D56A8;
+    --surface-color: #121212;
+}
 /*============================================*/
 /*gobal setting*/
 
@@ -47,7 +52,7 @@ body {
     padding: 25px;
     width: 80rem;
     height: 60rem;
-    background: var(--primary-white);
+    background: var(--surface-color);
     font-family: var(--ff-primary);
     line-height: 1.5;
     align-items: center;
@@ -181,8 +186,8 @@ p {
 }
 
 .dark-mode{
-    background: var(--primary-color);
-    color: var(--primary-white);
+    background: var(--surface-color);
+    color: var(--primary-color);
 }
 
 /* Background decoration */
@@ -262,7 +267,7 @@ p {
 
 .badge.neon {
     background: var(--grad-soft);
-    color: var(--primary-white);
+    color: var(--surface-color);
     border: none;
     box-shadow: 0 4px 16px rgba(248, 200, 220, 0.2);
 }
@@ -293,7 +298,7 @@ p {
 
 .btn-gradient {
     background: var(--grad-soft);
-    color: var(--primary-white);
+    color: var(--surface-color);
     box-shadow: 0 8px 24px rgba(248, 200, 220, 0.25);
 }
 .btn-gradient:hover {
@@ -341,7 +346,7 @@ p {
     border-bottom-right-radius: 24px;
     .menu-item :hover {
     transform: translateY(-4px);
-    -webkit-text-fill-color: var(--secondary-grey);
+    -webkit-text-fill-color: var(--secondary-color);
 }
 }
 
@@ -373,7 +378,7 @@ p {
     z-index: 1;
     color: var(--primary-color);
     :hover {
-        -webkit-text-fill-color: var(--secondary-grey);
+        -webkit-text-fill-color: var(--secondary-color);
     }
 }
 
@@ -435,15 +440,6 @@ p {
             }
         }
     }
-
-/*switch*/
-.dark-mode-toggle{
-    display: none;
-}
-.dark-mode-toggle svg{
-    width: 2.6875rem;
-    height: 2.625rem;
-}
 
 /*===================================================*/
 /*earth*/
@@ -531,7 +527,7 @@ model-viewer{
     border: 0px;
     border-radius: 50%;
     vertical-align: text-bottom ;
-    background: var(--primary-white);
+    background: var(--surface-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -559,7 +555,7 @@ model-viewer{
 }
 ::selection {
     background: var(--primary-color);
-    color: var(--primary-white);
+    color: var(--surface-color);
 }
 
 @media (max-width: 768px) {
