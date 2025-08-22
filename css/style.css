@@ -50,6 +50,7 @@ body {
 }
 
 header{
+    margin-bottom: 1.5rem;
     padding-top: var(--nav-height);
     padding-left: 15rem;
     text-transform: uppercase;
@@ -109,6 +110,9 @@ p {
     text-align: center;
     text-transform: lowercase;
 }
+.c1 {
+    display: flex;
+}
 .carousel {
     align-items: top;
     display: inline-block;
@@ -145,20 +149,27 @@ p {
         margin-top: 10rem;
     }
     header {
-        padding-right: 38rem;
         padding-top: 3rem;
+        text-align-last: center;
+        -moz-text-align-last: center;
+        padding-right: 58%;
+        padding-left: 15%;
+        /*margin-right: 50rem;
+        margin-left: -5rem;*/
+        white-space: nowrap;
     }
     .carousel {
         width:590px !important;
-        margin-left: 1.045rem;
+        margin-left: 55%;
+        /*margin-left: 1.045rem;*/
     }
     .map {
         padding-right: 0;
     }
 }
 
-li.menu-item :hover {
-    color: #676767;
+select :hover {
+    color: #5b5b5b;
 }
 
 .dark-mode{
@@ -307,20 +318,25 @@ li.menu-item :hover {
 }
 /*========sections===============*/
 /*navbar*/
-
-.navbar {
-    box-shadow: var(--box-shadow);
-    padding: 0 3rem;
+.navbar .computer {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px) saturate(120%);
+    border: 1px solid var(--glass-border);
+    padding: 0 0.3rem;
     height: var(--nav-height);
     text-align: center;
-    align-items: center;
+    width: 100%;
+    box-shadow: 0 8px 32px var(--box-shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
     position: fixed;
+    flex-shrink: 0;
+    align-items: center;
+    z-index: 1;
     top: 0;
     left: 0;
-    width: 100%;
-    z-index: 1;
-    flex-shrink: 0;
 }
+
 
 .navbar .computer .main-menu{
     display: flex;
@@ -335,13 +351,14 @@ li.menu-item :hover {
         font-size: 1.2rem;
     }
 }
+
 .navbar .mobile-menu-items {
     position: absolute;
     top: var(--nav-height);
     bottom: 0;
     left: 0;
     width: 25%;
-    text-align: center;
+    
     transform: translateX(600%);
     z-index: 1;
 }
@@ -368,6 +385,7 @@ li.menu-item :hover {
 }
 .navbar .mobile-menu-toggle {
     cursor: pointer;
+    color: var(--primary-color);
 }
 .navbar .mobile-menu-items.active {
     transform: translateX(300%);
@@ -406,7 +424,7 @@ li.menu-item :hover {
 }
 
 @media (max-width:768px){
-    .navbar .computer .main-menu {
+    .navbar .computer {
             display: none;
         }
         .navbar .glass-card,
@@ -487,7 +505,7 @@ model-viewer{
         height: 570px;
     }
     .carousel {
-        margin-left: 2.5rem !important;
+        margin-left: 5% !important;
     }
 }
 /*=================responsive=============*/
@@ -497,7 +515,7 @@ model-viewer{
         padding: 1.5rem; 
         width: 38rem;
         margin: 15px !important;
-        margin-left: 2.3rem !important;
+        margin-left: 4.5% !important;
         align-items: center;
     }
     .btn-row{
@@ -511,13 +529,19 @@ model-viewer{
     height: 50px;
     width: 50px;
     padding: 0;
+    border: 0px;
     border-radius: 50%;
+    vertical-align: text-bottom ;
     background: var(--primary-white);
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 20px;
+    backdrop-filter: blur(20px) saturate(120%);
+    box-shadow: 0 8px 32px var(--box-shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    bottom: 20px;
     right: 20px;
 }
 
