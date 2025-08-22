@@ -23,7 +23,9 @@ const disableDarkmode = () => {
 
     //enableDarkmode()
 themeSwitch.addEventListener("click", () => {
-    darkmode == "active" ? disableDarkmode(): enableDarkmode();})
+    const swarp = localStorage.getItem("darkmode");
+    console.log(swarp);
+    swarp == "active" ? disableDarkmode(): enableDarkmode();})
 // enableDarkmode() =()=>
 //     {
 //     darkmode =="active";
