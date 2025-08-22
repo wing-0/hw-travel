@@ -415,6 +415,9 @@ p {
     transform: translateX(300%);
     z-index: 2;
 }
+.navbar .mobile-menu {
+    display: none;
+}
 .navbar :before{
     background: radial-gradient(62.5% 62.5% at 50% 43.75%, 
     rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.30) 100%);
@@ -446,6 +449,9 @@ p {
         }
     }
 
+.navbar .mobile-menu {
+    display: block;
+}
 /*===================================================*/
 /*earth*/
 

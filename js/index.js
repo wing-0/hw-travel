@@ -20,7 +20,30 @@ const disableDarkmode = () => {
 };
 
 
-if (darkmode === "active") enableDarkmode()
+
+    //enableDarkmode()
 themeSwitch.addEventListener("click", () => {
-    darkmode !=="active" ? enableDarkmode() : disableDarkmode();
-});
+    darkmode == "active" ? disableDarkmode(): enableDarkmode();})
+// enableDarkmode() =()=>
+//     {
+//     darkmode =="active";
+//     theme.update();
+// },
+// disableDarkmode =()=>
+// {
+//     darkmode == "null";
+//     theme.update();
+// }});
+
+
+//darkmode == "active" ? enableDarkmode(): disableDarkmode()
+//enableDarkmode =()=>
+    //{
+    //darkmode =="active";
+    //theme.update;
+//},
+//disableDarkmode =()=>
+//{
+    //darkmode == "null";
+    //theme.update;
+//}
