@@ -15,10 +15,15 @@
     --grad-soft: linear-gradient(135deg, #eceef2 0%, #c1c2c6 45%, #bfbfc1 100%);
 }
 
-.dark-mode {
-    --primary-color: #fafafa;
-    --secondary-color: #6D56A8;
+.darkmode {
+    --primary-color: #fcfde9;
+    --secondary-color: #8774b6;
     --surface-color: #121212;
+    --box-shadow:rgba(156, 142, 209, 0.25);
+    --glass-bg: rgba(0, 0, 0, 0.08);
+    --nav-glass-bg:rgba(0, 0, 0, 0.61);
+    --glass-border: rgba(0, 0, 0, 0.12);
+    --grad-soft: linear-gradient(135deg, #eceef2 0%, #beb1d8 45%, #beb1d8 100%);
 }
 /*============================================*/
 /*gobal setting*/
@@ -402,7 +407,7 @@ p {
     }
     .navbar .mobile-menu-toggle {
     cursor: pointer;
-    color: var(--primary-color);
+    -webkit-text-fill-color: var(--primary-color);
 }
 }
 
