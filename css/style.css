@@ -51,7 +51,6 @@ img.logo {
     width: 3.2rem;
     height: 3.2rem;
     margin-left: 15px;
-
 }
 
 body {
@@ -393,6 +392,7 @@ p {
 
 .navbar .mobile-menu-list {
     /*display: flex;*/
+    top: 0;
     flex-direction: column;
     padding-top: var(--nav-height);
     gap: 5rem;
@@ -415,6 +415,7 @@ p {
 .navbar .mobile-menu-toggle {
     cursor: pointer;
     -webkit-text-fill-color: var(--primary-color);
+    padding-left: 33rem;
 }
 /*.mobile-menu-item {
     position: absolute;
