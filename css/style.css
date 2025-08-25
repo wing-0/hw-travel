@@ -8,6 +8,7 @@
     --border-radius: 62.5rem;
     --ff-primary: "Inter", sans-serif;
     --nav-height: 5.5rem;
+    --transition: all 0.3s linear;
     --glass-bg: rgba(255, 255, 255, 0.08);
     --nav-glass-bg:rgba(255, 255, 255, 0.61);
     --glass-border: rgba(255, 255, 255, 0.12);
@@ -377,17 +378,21 @@ p {
     z-index: 1;
 }
 .navbar .mobile-menu-item {
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 25%;
-    z-index: 1;
     color: var(--primary-color);
+    transition: var(--transition);
+    transform: translateX(600%);
+    z-index: 1;
     :hover {
         -webkit-text-fill-color: var(--secondary-color);
     }
 }
 
 .navbar .mobile-menu-list {
+    /*display: flex;*/
     flex-direction: column;
     padding-top: var(--nav-height);
     gap: 5rem;
@@ -405,19 +410,32 @@ p {
     li:last-child {
         border-bottom: 0;
     }
-    .navbar .mobile-menu-toggle {
+}
+
+.navbar .mobile-menu-toggle {
     cursor: pointer;
     -webkit-text-fill-color: var(--primary-color);
 }
-}
-
-.navbar .mobile-menu-items.active {
-    transform: translateX(300%);
+/*.mobile-menu-item {
+    position: absolute;
+    top: var(--nav-height);
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    transition: var(--transition);
+    transform: translateX(600%);
+    z-index: 1;
+}*/
+.navbar .mobile-menu-item .active {
     z-index: 2;
 }
-.navbar .mobile-menu {
+
+.navbar .mobile,
+.navbar .mobile-menu,
+.navbar .glass-card {
     display: none;
 }
+
 .navbar :before{
     background: radial-gradient(62.5% 62.5% at 50% 43.75%, 
     rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.30) 100%);
@@ -426,10 +444,6 @@ p {
 }
 
 
-.navbar .mobile-menu-list,
-.navbar .glass-card {
-    display: none;
-}
 
 .btn a{
     color: var(--primary-color);
@@ -439,6 +453,7 @@ p {
     .navbar .computer {
             display: none;
         }
+        .navbar .mobile,
         .navbar .glass-card,
         .navbar .glass-card .mobile-menu-list {
             display: block;
@@ -447,11 +462,12 @@ p {
                 background: none;
             }
         }
-    }
-
-.navbar .mobile-menu {
+        .navbar .mobile-menu {
     display: block;
 }
+    }
+
+
 /*===================================================*/
 /*earth*/
 
