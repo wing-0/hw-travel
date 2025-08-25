@@ -356,7 +356,7 @@ p {
 }
 
 
-.navbar .computer .main-menu{
+.navbar .computer .main-menu {
     display: flex;
     gap: 1.5rem;
     padding-left: 23rem;
@@ -431,8 +431,8 @@ p {
     z-index: 2;
 }
 
-.navbar .mobile,
-.navbar .mobile-menu,
+.navbar .mobile ,
+.navbar .mobile-menu ,
 .navbar .glass-card {
     display: none;
 }
