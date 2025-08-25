@@ -454,8 +454,8 @@ p {
     .navbar .computer {
             display: none;
         }
-        .navbar .mobile,
-        .navbar .glass-card,
+        .navbar .mobile ,
+        .navbar .glass-card ,
         .navbar .glass-card .mobile-menu-list {
             display: block;
             a {
