@@ -12,6 +12,8 @@
     --glass-bg: rgba(255, 255, 255, 0.08);
     --nav-glass-bg:rgba(255, 255, 255, 0.61);
     --glass-border: rgba(255, 255, 255, 0.12);
+    --glass-hover: rgba(0, 0, 0, 0.4);
+    --glass-inset:rgba(255, 255, 255, 0.15);
     --text-secondary: #b4c0d8;
     --grad-soft: linear-gradient(135deg, #eceef2 0%, #c1c2c6 45%, #bfbfc1 100%);
 }
@@ -24,6 +26,8 @@
     --glass-bg: rgba(0, 0, 0, 0.08);
     --nav-glass-bg:rgba(0, 0, 0, 0.61);
     --glass-border: rgba(0, 0, 0, 0.12);
+    --glass-hover: rgba(156, 142, 209, 0.4);
+    --glass-inset:rgba(0, 0, 0, 0.15);
     --grad-soft: linear-gradient(135deg, #eceef2 0%, #beb1d8 45%, #beb1d8 100%);
 }
 /*============================================*/
@@ -252,8 +256,8 @@ p {
 }
 .glass-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4),
-    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    box-shadow: 0 16px 48px var(--glass-hover),
+    inset 0 1px 0 var(--glass-inset);
 }
 /*badge*/
 .badge {
