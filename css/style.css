@@ -55,6 +55,7 @@ img.logo {
     width: 3.2rem;
     height: 3.2rem;
     margin-left: 15px;
+    z-index: 6;
 }
 
 body {
@@ -379,17 +380,52 @@ p {
     position: fixed;
     z-index: 1;
 }
+
 .navbar .mobile-menu-item {
     position: absolute;
-    top: var(--nav-height);
+    top: 0;
+    padding-top: 10px;
     bottom: 0;
     left: 0;
     width: 25%;
-    transition: var(--transition);
-    transform: translateX(600%);
-    z-index: 1;
-    color: var(--primary-color);
+    align-items: center;
+    text-align: center;
+    background: var(--nav-glass-bg);
+    backdrop-filter: blur(20px) saturate(120%);
+    /*border: 1px solid var(--glass-border);*/
+    padding: 2rem;
+    box-shadow: 0 8px 32px var(--box-shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    transform: translateY(-100%);
+    z-index: -1;
 }
+
+/*.navbar .mobile-menu {
+    background: var(--nav-glass-bg);
+    backdrop-filter: blur(20px) saturate(120%);
+    padding: 2rem;
+    box-shadow: 0 8px 32px var(--box-shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}*/
 
 .navbar-flex {
     display: flex;
@@ -437,12 +473,13 @@ p {
 .navbar .mobile-menu-toggle {
     cursor: pointer;
     -webkit-text-fill-color: var(--primary-color);
-    margin-left: 40rem;
+    margin-left: 38.5rem;
+    z-index: 5;
 }
 
-.navbar .mobile-menu-item .active {
-    transform: translateX(300%);
-    z-index: 2;
+.navbar .mobile-menu-item.active {
+    transform: translateY(0);
+    /*z-index: 2;*/
 }
 
 .navbar .mobile-menu {
@@ -450,12 +487,12 @@ p {
 }
 
 
-.navbar :before {
+/*.navbar :before {
     background: radial-gradient(62.5% 62.5% at 50% 43.75%, 
     rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.30) 100%);
     mix-blend-mode: screen;
     box-shadow: 0 0 77.6px 0 rgba(255, 255, 255, 0.10) inset, 0 80px 200px -19px rgba(0, 0, 0, 0.29);
-}
+}*/
 
 @media (max-width:768px){
     .navbar {

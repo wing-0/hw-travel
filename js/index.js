@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     toggleButton.addEventListener("click", () => {
         mobileMenu.classList.toggle("active");
+        console.log("button tiggered");
     });
 });
 
