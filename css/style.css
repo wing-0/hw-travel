@@ -436,14 +436,20 @@ p {
 
 .navbar .mobile-menu-list {
     display: flex;
-    top: 0;
-    flex-direction: column;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding-top: var(--nav-height);
+    justify-content: center;
+    flex-direction: column;
+    color: var(--primary-color);
     align-items: center;
     gap: 5rem;
     font-size: 25px;
     margin-block: 0;
     font-weight: 780;
+    margin: auto;
     li {
         padding-bottom: 2rem;
     }
@@ -451,24 +457,13 @@ p {
         padding-right: 4.5rem;
         padding-bottom: 5rem;
         mix-blend-mode: difference;
+        font-weight: 120;
+        vertical-align: middle;
     }
     li:last-child {
         border-bottom: 0;
     }
 }
-
-/*.mobile-menu .mobile-menu-toggle
-{
-    margin-left: -5%;
-    margin-bottom: 30rem;
-    cursor: pointer;
-}
-.mobile .logo {
-    padding: 0 !important;
-}
-.mobile .glass-card {
-    margin-left: -11% ;
-}*/
 
 .navbar .mobile-menu-toggle {
     cursor: pointer;
