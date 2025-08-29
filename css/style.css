@@ -445,13 +445,12 @@ p {
     flex-direction: column;
     color: var(--primary-color);
     align-items: center;
-    gap: 5rem;
     font-size: 25px;
     margin-block: 0;
     font-weight: 780;
     margin: auto;
     li {
-        padding-bottom: 2rem;
+        padding-bottom: -3rem;
     }
     a {
         padding-right: 4.5rem;
